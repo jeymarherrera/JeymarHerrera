@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+  <!-- Minified JS library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  <!-- Compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Imagenes grandes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <!-- Personal CSS -->
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<!-- barra de navegacion -->
+<nav class="navbar navbar-fixed-top">
+  <div class="logo logo_colored">
+    <li class="name"><h1>JEYMAR HERRERA</h1></li>
+  </div>
+  <div class="enlaces">
+    <ul>
+      <li class="nav__enlace"><button><a href="cv/Jeymar Herrera - CV.pdf" download="Jeymar Herrera - CV.pdf">Descargar CV</a></button></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carrusel -->
+<div id="myCarouselCustom" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <!-- item 1 -->
+    <div class="item active">
+      <img src="img/about-me.jpg" alt="">
+        <div class="carousel-caption">
+            <h2>SOBRE MÍ</h2>
+            <p>ESTUDIANTE DE DESARROLLO DE SOFTWARE | WEB DEVELOPER | ANDROID DEVELOPER | MEDIA EDITOR</p>
+        </div>
+    </div>
+
+    <!-- item 2 -->
+    <div class="item">
+      <img src="img/contact.jpg" alt="">
+        <div class="carousel-caption">
+            <h2>CONTACTO</h2>
+            <p>PUEDES PONERTE EN CONTACTO CONMIGO A TRAVÉS DE MIS DIFERENTES REDES</p>
+            <div class="enlaces_contacto">
+              <ul>
+                <li class="nav__enlace"><button><a href="https://api.whatsapp.com/send?phone=+50760441454&amp;text=Hola!%20he%20visualizado%20tu%20portafolio.%20Me%20gustaría%20ponerme%20en%20contacto%20contigo." target="_blank">WhatsApp</a></button></li>
+                <li class="nav__enlace"><button><a href="https://www.linkedin.com/in/jeymar-herrera-bab751242" target="_blank">LinkedIn</a></button></li>
+                <li class="nav__enlace"><button><a href="mailto:jeymar.herrera@utp.ac.pa?Subject=Hola!%20he%20visualizado%20tu%20portafolio.%20Me%20gustaría%20ponerme%20en%20contacto%20contigo.">Correo</a></button></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- item 3 -->
+    <div class="item">
+        <img src="img/cv.jpg" alt="">
+        <div class="carousel-caption">
+          <h2>CURRICULUM VITAE</h2>
+          <p>AQUÍ ENCONTRARÁS INFORMACIÓN MÁS DETALLADA SOBRE MIS HABILIDADES</p>
+            <div class="enlaces_contacto">
+              <ul>
+                <li class="nav__enlace"><button><a href="cv/Jeymar Herrera - CV.pdf" download="Jeymar Herrera - CV.pdf">Descargar CV</a></button></li>
+              </ul>
+            </div>
+        </div>
+    </div>    
+  </div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  <li data-target="#myCarouselCustom" data-slide-to="0" class="active"></li>
+  <li data-target="#myCarouselCustom" data-slide-to="1"></li>
+  <li data-target="#myCarouselCustom" data-slide-to="2"></li>
+  </ol>
+
+  <!-- function Indicators -->
+  <script type="text/javascript">
+  // Call carousel manually
+  $('#myCarouselCustom').carousel();
+
+  // Go to the previous item
+  $("#prevBtn").click(function(){
+      $("#myCarouselCustom").carousel("prev");
+  });
+  // Go to the previous item
+  $("#nextBtn").click(function(){
+      $("#myCarouselCustom").carousel("next");
+  });
+  </script>  
+</div>
+
+<body>
+  <!-- datos personales -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Datos Personales</h2>
+        <div class="card" >
+          <div class="row">
+            <div class="col-sm-3">
+              <img src="img/jeymar-herrera.png" class="img-fluid thumbnail rounded-start" alt="...">
+            </div>
+            <div class="col-sm-8 ">
+              <div class="caption">
+                <h5 class="am-title">SOBRE MÍ</h5>
+                <p class="aboutme">Mi nombre es Jeymar Carolina Herrera Blanco, soy de Caracas, Venezuela. Tengo 21 años y vivo en la ciudad de Panamá. Actualmente, estoy estudiando una licenciatura de Desarrollo de Software en la Universidad Tecnológica de Panamá, me encuentro en mi tercer año de la carrera, muy cerca de culminar mis estudios pero con el objetivo de seguir aprendiendo. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Perfil Profesional -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Perfil Profesional</h2>
+          <!-- thumbnail 1 -->
+          <div class="card mb-3">
+            <div class="card-body">
+              <p class="card-text">Me considero una persona responsable, empatica y creativa, con facilidad de adaptación y capacidad de trabajar en equipo, en condiciones de alta presión, con iniciativa para proponer posibles soluciones a los problemas que se presenten y lograr las metas y objetivos trazados por la empresa.</p>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <!-- estudios -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Estudios Académicos</h2>
+        <div class="row">
+          <!-- thumbnail 2 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/juancho.jfif" alt="...">
+              <div class="caption">
+                <h5>U. E. N. Juan de Escalona - 2007/2015</h5>
+                <p>Es un instituto localizado Av. Principal de El Hatillo - La Lagunita en Caracas, Venezuela. En el cual realicé la primaria, hasta segundo año de bachillerato.</p>
+                <p><button><a href="https://uenjde.blogspot.com/" target="_blank">Página Web</a></button>
+              </div>
+            </div>     
+          </div>
+
+          <!-- thumbnail 2 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/remon.jpg" alt="...">
+              <div class="caption">
+                <h5>Colegio José Antonio Remon Cantera - 2016/2019</h5>
+                <p>Colegio que se encuentra ubicado en Via Israel, Paitilla, Ciudad de Panamá. En el pude finalizar mis estudios como bachiller en Ciencias con énfasis en Informática.</p>
+                <p><button><a href="https://sites.google.com/view/colegio-jose-a-remon-cantera/inicio" target="_blank">Página Web</a></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- thumbnail 3 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/utp.jpg" alt="...">
+              <div class="caption">
+                <h5>Universidad Tecnológica de Panamá - 2020/Presente</h5>
+                <p>Institución estatal de educación superior científica-tecnológica. En la que actualmente curso una licenciatura, en la sede del Campus Victor Levi Sasso. Vía Centenario, Panamá</p>
+                <p><button><a href="https://utp.ac.pa/" target="_blank">Página Web</a></button>
+              </div>
+            </div>
+          </div>  
+        </div>
+    </div>
+  </div>
+
+  <!-- cursos y capacitaciones  -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Cursos o Capacitaciones</h2>
+        <div class="tz-gallery">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <a href="img/kafka-bg.png" class="thumbnail"><img src="img/kafka-bg.png" alt="..."></a>
+            </div>
+          
+            <div class="col-xs-6 col-md-3">
+              <a href="img/kb-bg.png" class="thumbnail"><img src="img/kb-bg.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/docker-bg.png" class="thumbnail"><img src="img/docker-bg.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/groovy-bg.png" class="thumbnail"><img src="img/groovy-bg.png" alt="..."></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <a href="img/ms-bg.png" class="thumbnail"><img src="img/ms-bg.png" alt="..."></a>
+            </div>
+          
+            <div class="col-xs-6 col-md-3">
+              <a href="img/git-bg.png" class="thumbnail"><img src="img/git-bg.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/lp-alura.png" class="thumbnail" style="min-height: 190px;"><img src="img/lp-alura.png" alt="..." style="min-height: 180px;"></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/els.jpeg" class="thumbnail" ><img src="img/els.jpeg" alt="..." style="max-height: 180px;"></a>
+            </div>
+          </div>
+      </div>
+    </div> 
+  </div>  
+
+  <!-- habilidades -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Mis Habilidades en Programación</h2>
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-purple" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+            70% - HTML
+          </div>  
+        </div>
+
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-aqua" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+            35% - CSS
+          </div>
+        </div>
+
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100" style="width: 46%">
+            46% - Java
+          </div>
+        </div>
+
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-pink" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 27%">
+            27% - C
+          </div>
+        </div>
+
+        <div class="progress progress-striped active">
+          <div class="progress-bar progress-bar-gray" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" style="width: 38%">
+            38% - C++
+          </div>
+        </div>
+    </div>    
+  </div>
+
+  <!-- habilidades 2 -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Habilidades Técnicas</h2>
+        <div class="tz-gallery">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <a href="img/as.png" class="thumbnail"><img src="img/as.png" alt="..."></a>
+            </div>
+           
+            <div class="col-xs-6 col-md-3">
+              <a href="img/vs.png" class="thumbnail"><img src="img/vs.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3" style="min-height: 200px;">
+              <a href="img/figma.png" class="thumbnail"><img src="img/figma.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/gh.png" class="thumbnail"><img src="img/gh.png" alt="..."></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <a href="img/mysql.png" class="thumbnail"><img src="img/mysql.png" alt="..."></a>
+            </div>
+           
+            <div class="col-xs-6 col-md-3">
+              <a href="img/jm.png" class="thumbnail"><img src="img/jm.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/sql.png" class="thumbnail"><img src="img/sql.png" alt="..."></a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <a href="img/trello.png" class="thumbnail"><img src="img/trello.png" alt="..."></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>          
+
+  <!-- Aptitudes -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Aptitudes</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Disciplina</li>
+          <li class="list-group-item">Capacidad de Adaptación</li>
+          <li class="list-group-item">Empatía</li>
+          <li class="list-group-item">Perseveracia</li>
+          <li class="list-group-item">Proactividad</li>
+        </ul>
+    </div>
+  </div>  
+
+  <!-- Intereses -->
+  <div class="palettes">
+    <div class="wrapper">
+        <h2 class="name">Intereses</h2>
+         <!-- thumbnail 1 -->
+         <div class="card mb-3">
+          <div class="card-body">
+            <p class="card-text">Realizar Cursos | Diseñar | Ver Documentales | Escuchar Música  | Aprender | Prácticar en diferentes Herramientas Tecnológicas</p>
+          </div>
+        </div>
+    </div>
+  </div> 
+
+  <!-- boton flotante -->
+  <button class="btn-flotante"><a href="#">Up</a></button>
+</body>
+
+<!-- footer -->
+<footer class="container">
+    <div class="row">
+      <script>document.write(new Date().getFullYear());</script>&copy;  Jeymar Herrera
+      <div class="col-sm-2"><a href="" target="_blank">LinkedIn</a></div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>baguetteBox.run('.tz-gallery');</script>
+</html>

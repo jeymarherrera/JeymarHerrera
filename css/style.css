@@ -1,0 +1,259 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+}
+
+p.card-text{
+  font-size: large;
+  text-align: center;
+  font-weight:500;
+  margin: 10px;
+ }
+
+body .aboutme{
+ font-size: large;
+ text-align: justify;
+ font-weight:600;
+ margin: 10px;
+}
+
+.am-title{
+  margin-top: 50px;
+  font-size: large;
+}
+
+.navbar {
+  background-color: transparent !important;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  overflow: auto;
+  padding: 3rem 4%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.card-text p{
+  font-weight: bold;
+  color: #00ada8;
+}
+
+h1, h2, h5, .list-group-item {
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  align-items: center;
+  color: #ff6491;
+}
+
+.wrapper h2, .list-group-item {
+  margin-bottom: 15px;
+  align-self: center;
+  text-align: center;
+}
+.enlaces .nav__enlace {
+  color: inherit;
+  float: left;
+}
+
+.nav__enlace:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.enlaces ul {
+  float: right;
+}
+
+.enlaces_contacto .nav__enlace {
+  color: inherit; 
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.carousel-caption p {
+  background-color: rgba(0, 0, 0, 0.10);
+  font-weight: bold;
+}
+.logo_colored >.name{
+  margin-right: 3rem;
+  float:left;
+  display: flex;
+  align-items:center;
+  margin: none;
+}
+
+.name{
+  color: #ff6491;
+}
+
+.name:hover {
+  color:#8032ed;
+}
+
+.enlaces_contacto > ul > li{
+  display: inline-block;
+}
+
+.conteudo{
+  display:flex;
+  width: 350px;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 25px;
+  column-gap: 20px;
+}
+
+.card_slider{
+  flex: 0 0 100%;
+  padding: 30px;
+  scroll-snap-align: start;
+  border-radius: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  outline: none;
+  text-transform: uppercase;
+}
+
+button {
+  background-color:#ff6491;
+  border-radius: 1.2rem;
+  color: white;
+  padding: 1rem 2rem;
+  transition: all 250ms ease;
+  transition-property: background-color, border-color, color;
+}
+
+button:hover {
+  background-color: #00ada8;
+  color: white;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+.btn-flotante {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+.carousel, .carousel-inner > .item {
+  height: 65rem;
+}
+
+.carousel, .carousel-inner > .item > img {
+  width: 100%;
+}
+
+header {
+  margin-top: 9rem;
+  padding: 0 4%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.img-fluid{
+  height: 250px;
+  width: 200px;
+  margin: 10px;
+  padding: auto;
+}
+
+.card-body{
+  margin-top: 10px;
+}
+
+.palettes{
+  padding:20px 0;
+  background:whitesmoke;
+}
+
+.palettes .wrapper{
+  width:80%;
+  margin:auto;
+  position:relative;
+}
+
+.thumbnail, .list-group-item, .progress:hover{
+  margin-top: 10px;
+  transition: all 250ms ease;
+  transition-property: background-color, border-color, color;
+}
+
+.thumbnail:hover, .list-group-item:hover, .progress:hover {
+  background-color: whitesmoke;
+  color: #00ada8;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+/* progress */
+.progress-bar-pink {
+  background-color: #ff6491 !important;  
+}
+
+.progress-bar-purple {
+  background-color:#8032ED !important;
+}
+
+.progress-bar-aqua {
+  background-color: #05CACC !important;
+}
+
+.progress-bar-yellow {
+  background-color: #FFCA2F !important;
+}
+
+.progress-bar-gray {
+  background-color: #AEA1BF !important;
+}
+
+/* footer */
+footer {
+  font-size: 14px;
+  padding: 20px 0;
+  font-weight: 700; 
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
