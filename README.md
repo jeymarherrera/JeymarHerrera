@@ -10,10 +10,10 @@
 
 # 📊 GitHub Stats:
 <div align="center">
-
-  ![](https://github-readme-stats.vercel.app/api?username=jeymarherrera&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false)<br/>
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=jeymarherrera&theme=nightowl&hide_border=false)<br/>
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jeymarherrera&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+  <img border="1" src = "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeymarherrera&theme=radical" /><br/>
+  
+  ![](https://github-readme-streak-stats.herokuapp.com/?user=jeymarherrera&theme=radical)<br/>
+  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jeymarherrera&theme=radical&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=jeymarherrera&icon=0&color=0)](https://visitcount.itsvg.in)
