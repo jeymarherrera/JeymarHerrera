@@ -3,7 +3,7 @@
  </div> 
  
 <div align="center">
- Soy Jeymar, estudiante de Desarrollo de Software. <br>Me encuentro constantemente aprendiendo y descubriendo que es lo que más me gusta dentro de este mundo. <br>Actualmente, me gustaría poder aprender cada vez más  sobre el Desarrollo de Aplicaciones tanto web como moviles, <br> sobre el Diseño UI/UX,  Análisis de Datos y la Automatización de Pruebas de Software. </div>
+ Soy Jeymar, estudiante de Desarrollo de Software. <br>Me encuentro constantemente aprendiendo y descubriendo que es lo que más me gusta dentro de este mundo. <br>Actualmente, me gustaría poder aprender cada vez más  sobre el Desarrollo de Web y Móvil, <br> sobre el Diseño UI/UX,  Análisis de Datos y la Automatización de Pruebas de Software. </div>
 
 ## 💻 Technical Skill Set:
 
